@@ -1,0 +1,105 @@
+.payment-safe-frame {
+  background: #ffffff;
+  border: 1px solid #e0e6ed;
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 86, 179, 0.08); /* Soft blue shadow */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.safe-icon-container {
+  background-color: #f0f7ff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+}
+
+.safe-title {
+  color: #1a1a1a;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.safe-message-box {
+  background-color: #f8fafc;
+  border-left: 4px solid #0056b3; /* Blue accent bar */
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.primary-text {
+  color: #2d3748;
+  font-size: 0.95rem;
+  margin: 0 0 8px 0;
+}
+
+.secondary-text {
+  color: #64748b;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.status-timeline {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #4a5568;
+  font-size: 0.9rem;
+  background: #edf2f7;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+/* Button Styles */
+.check-status-btn {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.check-status-btn:hover {
+  background-color: #004494;
+}
+
+.check-status-btn:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+.transaction-ref {
+  margin-top: 24px;
+  font-size: 0.75rem;
+  color: #a0aec0;
+}
+
+.transaction-ref span {
+  font-family: monospace;
+  color: #4a5568;
+}

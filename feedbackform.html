@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Warranty Registration</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Product Registration</h1>
+            <p>Upload a photo of your product or bill to autofill details.</p>
+        </header>
+
+        <form id="warrantyForm">
+            <div class="upload-section">
+                <label for="productImage" class="upload-label">
+                    <span id="uploadText"></span>
+                    <input type="file" id="productImage" accept="image/*">
+                </label>
+                <img id="imagePreview" alt="Product Preview">
+                
+                <div id="aiLoader" class="hidden">
+                    <div class="spinner"></div>
+                    <p>AI is analyzing image...</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-group">
+                <label for="customerName">Full Name</label>
+                <input type="text" id="customerName" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="modelName">Model Name (AI Auto-fill)</label>
+                <input type="text" id="modelName" placeholder="Waiting for image..." readonly>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="modelNumber">Model Number</label>
+                    <input type="text" id="modelNumber" placeholder="---" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price ($)</label>
+                    <input type="number" id="price" placeholder="0.00">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="purchaseDate">Purchase Date</label>
+                <input type="date" id="purchaseDate">
+            </div>
+
+            <button type="submit" class="submit-btn">Register Product</button>
+        </form>
+    </div>
+
+    <script src="feedback.js"></script>
+</body>
+</html>
