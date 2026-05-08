@@ -1,0 +1,1 @@
+print("Camera Detection of sny object")
