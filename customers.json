@@ -1,0 +1,18 @@
+{
+  "customer-001": {
+    "id": "customer-001",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "loyaltyPoints": 2500,
+    "tier": "Gold",
+    "preferences": {
+      "categories": ["Electronics", "Clothing"],
+      "brands": ["Apple", "Nike"],
+      "sizes": {
+        "shoes": "10",
+        "clothing": "L"
+      }
+    },
+    "purchaseHistory": ["order-001", "order-002"]
+  }
+}

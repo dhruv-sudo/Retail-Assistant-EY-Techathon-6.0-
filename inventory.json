@@ -1,0 +1,58 @@
+{
+  "SHOE-001": {
+    "online": 45,
+    "storeA": 12,
+    "storeB": 8,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "SHIRT-001": {
+    "online": 120,
+    "storeA": 25,
+    "storeB": 30,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "WATCH-001": {
+    "online": 15,
+    "storeA": 3,
+    "storeB": 5,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "BAG-001": {
+    "online": 32,
+    "storeA": 6,
+    "storeB": 4,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "JEAN-001": {
+    "online": 200,
+    "storeA": 45,
+    "storeB": 38,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "HEADPHONE-001": {
+    "online": 0,
+    "storeA": 2,
+    "storeB": 0,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "JACKET-001": {
+    "online": 67,
+    "storeA": 15,
+    "storeB": 12,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  },
+  "SUNGLASSES-001": {
+    "online": 89,
+    "storeA": 20,
+    "storeB": 18,
+    "storeAName": "Downtown Store",
+    "storeBName": "Mall Location"
+  }
+}

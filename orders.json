@@ -1,0 +1,74 @@
+{
+  "order-001": {
+    "id": "order-001",
+    "customerId": "customer-001",
+    "items": [
+      {
+        "productId": "1",
+        "name": "Nike Air Max 270",
+        "quantity": 1,
+        "price": 150,
+        "size": "10",
+        "color": "Black/White"
+      }
+    ],
+    "subtotal": 150,
+    "discount": 30,
+    "shipping": 0,
+    "total": 120,
+    "status": "delivered",
+    "paymentMethod": "card",
+    "deliveryType": "delivery",
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "timeline": [
+      { "status": "ordered", "date": "2025-01-05T10:00:00Z", "description": "Order placed" },
+      { "status": "confirmed", "date": "2025-01-05T10:05:00Z", "description": "Order confirmed" },
+      { "status": "processing", "date": "2025-01-05T14:00:00Z", "description": "Preparing your order" },
+      { "status": "shipped", "date": "2025-01-06T09:00:00Z", "description": "Package shipped via FedEx" },
+      { "status": "out_for_delivery", "date": "2025-01-08T08:00:00Z", "description": "Out for delivery" },
+      { "status": "delivered", "date": "2025-01-08T14:30:00Z", "description": "Delivered" }
+    ],
+    "trackingNumber": "FX123456789",
+    "createdAt": "2025-01-05T10:00:00Z"
+  },
+  "order-002": {
+    "id": "order-002",
+    "customerId": "customer-001",
+    "items": [
+      {
+        "productId": "3",
+        "name": "Apple Watch Series 9",
+        "quantity": 1,
+        "price": 399,
+        "size": "45mm",
+        "color": "Midnight"
+      }
+    ],
+    "subtotal": 399,
+    "discount": 0,
+    "shipping": 10,
+    "total": 409,
+    "status": "shipped",
+    "paymentMethod": "wallet",
+    "deliveryType": "delivery",
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "timeline": [
+      { "status": "ordered", "date": "2025-01-10T15:00:00Z", "description": "Order placed" },
+      { "status": "confirmed", "date": "2025-01-10T15:05:00Z", "description": "Order confirmed" },
+      { "status": "processing", "date": "2025-01-11T09:00:00Z", "description": "Preparing your order" },
+      { "status": "shipped", "date": "2025-01-12T11:00:00Z", "description": "Package shipped via UPS" }
+    ],
+    "trackingNumber": "UPS987654321",
+    "createdAt": "2025-01-10T15:00:00Z"
+  }
+}
